@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Training data and ML artifacts
+backend/ml-service/labeled-*.json
+backend/ml-service/synthetic-*.json
+backend/ml-service/training-*.json
+backend/ml-service/evaluation-*.json
+backend/ml-service/path/
+backend/ml-service/venv/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Large/unnecessary files
+Desktop-New-New.png
+*.rtf
+test.txt
+
+# Husky hooks (not needed in production)
+.husky/
+
+# Deployment docs (can regenerate)
+DEPLOYMENT.md
+LOCAL_DEVELOPMENT.md
+README.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
