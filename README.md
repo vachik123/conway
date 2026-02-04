@@ -2,7 +2,7 @@
 
 Howdy! My submission is novel in a few ways, including an event visualization timeline, and measuring code quality alongside security.
 
-For detection, I created River models that were trained on LLM-labelled real and synthetic event data. To achieve this, I pull from repo contexts and use a sizable number of feature weights.
+For detection, I used online River models that were trained on LLM-labelled real and synthetic event data. To achieve this, I pull from repo contexts and use a sizable number of feature weights.
 
 In other words, I have covered the bonus points section of the instructions.
 
